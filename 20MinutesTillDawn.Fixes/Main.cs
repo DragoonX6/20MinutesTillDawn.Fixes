@@ -11,8 +11,6 @@ public class Fixes: BaseUnityPlugin
 
 	public void Awake()
 	{
-		instance.PatchAll(typeof(FixElementStatPowerup));
-		instance.PatchAll(typeof(FixStalwartShield));
 		Logger.LogInfo("Fixing done");
 	}
 }
