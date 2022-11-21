@@ -11,6 +11,7 @@ public class Fixes: BaseUnityPlugin
 
 	public void Awake()
 	{
+		instance.PatchAll(typeof(FixPowerupStacking));
 		Logger.LogInfo("Fixing done");
 	}
 }
