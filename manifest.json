@@ -1,0 +1,10 @@
+{
+	"name": "MiscellaneousFixes",
+	"version_number": "3.0.0",
+	"website_url": "https://github.com/DragoonX6/20MinutesTillDawn.Fixes",
+	"description": "Miscellaneous fixes for the game.",
+	"dependencies":
+	[
+		"BepInExPackMTD-BepInExPack_20MTD-1.0.0"
+	]
+}
